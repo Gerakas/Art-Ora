@@ -26,6 +26,52 @@ hr {
     backdrop-filter: blur(5px);
 }
 
+footer .list-inline-item a .facebook {
+    background-color: #3A5A99;
+}
+
+footer .list-inline-item a .facebook:hover {
+    background-color: #fcfcfc;
+    color: #3A5A99;
+}
+
+footer .list-inline-item a .instagram {
+    background-color: #D50060;
+}
+
+footer .list-inline-item a .instagram:hover {
+    background-color: #fcfcfc;
+    color: #D50060;
+}
+
+footer .list-inline-item a .pinterest {
+    background-color: #BD081C;
+}
+
+footer .list-inline-item a .pinterest:hover {
+    background-color: #fcfcfc;
+    color: #BD081C;
+}
+
+footer .list-inline-item a .twitter {
+    background-color: #55ACEE;
+}
+
+footer .list-inline-item a .twitter:hover {
+    background-color: #fcfcfc;
+    color: #55ACEE;
+}
+
+footer .list-inline-item a .reddit {
+    background-color: #FF4500;
+}
+
+footer .list-inline-item a .reddit:hover {
+    background-color: #fcfcfc;
+    color: #FF4500;
+}
+
+
 /*------------------------------------------------- Header Landing Page -------------------------------------------------*/
 
 .navbar {
@@ -43,12 +89,22 @@ hr {
     top: 15px;
 }
 
+.navbar-toggler-icon {
+    align-items: center;
+}
+
+span .line {
+    height: 3px;
+    width: 25px;
+    background-color: #fcfcfc;
+    margin: 5px;
+
+}
+
 .navbar-links {
-    position: absolute;
-    margin: 0;
+    position: flex;
+    margin: 0 20%;
     padding: 0;
-    right: 20%;
-    top: 20%;
 }
 
 .nav-item {
@@ -186,18 +242,12 @@ footer .list-inline-item a i {
     height: 50px;
     width: 50px;
     padding: 10px;
-    border: 1px solid #31AED5;
     border-radius: 50px;
-    background-color: #31AED5;
     color: #fcfcfc;
 }
 
 footer .list-inline-item a {
     color: #fcfcfc;
-}
-
-footer .list-inline-item a i:hover {
-    background-color: rgb(16, 145, 184);
 }
 
 /*---------- /Social Media Icons ----------*/
@@ -228,10 +278,6 @@ footer .list-inline-item a i:hover {
 
     .column {
         margin-top: 10px;
-    }
-
-    footer .list-inline-item a i {
-        margin: 0px 5px;
     }
 
 }
