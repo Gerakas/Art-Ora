@@ -9,10 +9,14 @@ html, body {
     overflow-x:hidden;
 }
 
-/*------------------------------------------------- Geberal  -------------------------------------------------*/
+/*------------------------------------------------- General  -------------------------------------------------*/
 
 .uppercase {
     text-transform: uppercase;
+}
+
+hr {
+    display: none;
 }
 
 /*------------------------------------------------- Colors -------------------------------------------------*/
@@ -44,17 +48,17 @@ html, body {
     margin: 0;
     padding: 0;
     right: 20%;
-    top: 15px;
+    top: 20%;
 }
 
 .nav-item {
-    margin-left: 45px;
+    margin-left: 50px;
 }
 
 .nav-link {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 28px;
     text-align: center;
     color: #fcfcfc;
 }
@@ -75,15 +79,38 @@ html, body {
     
 }
 
-.ethos {
+.ethos-bg {
     background-color: #fcfcfc;
     background-position: center;
     background-size: cover;
     min-height: 350px;
     border: 1px solid #a6a6a6;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2), -2px -2px 10px rgba(0, 0, 0, 0.2);
+}
 
+.ethos-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 56px;
+    text-align: center;
+    color: #9b9393;
+    margin: 60px 0;
+}
 
+.btn {
+    width: 6em;
+    background-color: #31AED5;
+    border-radius: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 32px; 
+    color: #fcfcfc;
+    box-shadow: 2px 5px 3px rgba(0, 0, 0, 0.15);
+
+}
+
+.btn:hover {
+    color: #fcfcfc;
 }
 
 /*------------------------------------------------- Footer -------------------------------------------------*/
@@ -97,39 +124,124 @@ footer {
     
 }
 
+.column-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+/*---------- Logo ----------*/
+
 .footer-logo {
-    position: absolute;
-    left: 60%;  
+    width: 100%;
+    min-height: 170px;
+}
+
+.footer-logo-img {
     width: 70px;
     height: 70px;
 }
 
-.footer-text-section {
-    margin-left: auto;
-    margin-right: auto;
+/*---------- /Logo ----------*/
+/*---------- Text-Links ----------*/
+
+.footer-text-links {
+    margin-bottom: 100px;
 }
 
-.footer-titles {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    color: #696969;
-    text-decoration: underline;
-}
-
-.footer-column {
+.column-list {
     list-style: none;
     padding: 0;
 }
 
-.footer-column-links {
+.column-links {
     margin-top: 20px;
 }
 
-.footer-column-links a {
+.column-links a {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     font-size: 14px;
     color: #fcfcfc;
+}
+
+.column-links a:hover {
+    text-decoration: underline;
+}
+
+
+/*---------- /Text-Links ----------*/
+/*---------- Social Media Icons ----------*/
+
+.social-media {
+    min-height: 100px;
+    width: 100%;
+}
+
+footer .list-inline-item a i {
+    font-size: 28px;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border: 1px solid #31AED5;
+    border-radius: 50px;
+    background-color: #31AED5;
+    color: #fcfcfc;
+}
+
+footer .list-inline-item a {
+    color: #fcfcfc;
+}
+
+footer .list-inline-item a i:hover {
+    background-color: rgb(16, 145, 184);
+}
+
+/*---------- /Social Media Icons ----------*/
+/*------------------------------------------------- Different Screen Resolutions -------------------------------------------------*/
+
+@media screen and (max-width: 767px) {
+
+    .lp-bg {
+        min-height: 600px;
+    }
+
+
+    .ethos-bg {
+    min-height: 250px;
+    }   
+
+    .ethos-text {
+        font-size: 35px;
+        margin: 40px 0;
+    }
+
+    .btn {
+    width: 6em;
+    border-radius: 50px;
+    font-weight: 400;
+    font-size: 28px; 
+    }
+
+    .column {
+        margin-top: 10px;
+    }
+
+    footer .list-inline-item a i {
+        margin: 0px 5px;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+
+    hr {
+        display: block;
+        border: 1px solid #292929;
+        width: 60%;
+    }
+
 }
