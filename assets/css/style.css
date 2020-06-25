@@ -9,25 +9,15 @@ html, body {
     overflow-x:hidden;
 }
 
-/*------------------------------------------------- General  -------------------------------------------------*/
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-hr {
-    display: none;
-}
-
 /*------------------------------------------------- Colors -------------------------------------------------*/
 
 .nav-lp-bg-color {
-    background-color: rgba(217, 217, 217, .5);
+    background-color: #fcfcfc;
     backdrop-filter: blur(5px);
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #fcfcfc;
+    color: #696969;
 }
 
 footer .list-inline-item a .facebook {
@@ -75,8 +65,13 @@ footer .list-inline-item a .reddit:hover {
     color: #FF4500;
 }
 
+/*------------------------------------------------- General - All pages -------------------------------------------------*/
 
-/*------------------------------------------------- Header Landing Page -------------------------------------------------*/
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*-- Header --*/
 
 .navbar {
     position: fixed;
@@ -96,8 +91,8 @@ footer .list-inline-item a .reddit:hover {
     left: 20%;
 }
 
-.navbar-brand-dark {
-    display: none;
+.navbar-brand-dark-general {
+    display: block;
 }
 
 .nav-item {
@@ -113,61 +108,19 @@ footer .list-inline-item a .reddit:hover {
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: #fcfcfc;
-}
-
-/*------------------------------------------------- Landing Page -------------------------------------------------*/
-
-.lp-bg {
-    background: url("../images/landing-page-bg.jpg");
+    background: url("../images/nav-item-bg.jpg");
+    border-radius: 5px;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 900px;
-    
 }
 
-.ethos-bg {
-    background-color: #fcfcfc;
-    background-position: center;
-    background-size: cover;
-    min-height: 350px;
-    border: 1px solid #a6a6a6;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2), -2px -2px 10px rgba(0, 0, 0, 0.2);
-}
-
-.ethos-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-size: 56px;
-    text-align: center;
-    color: #9b9393;
-    margin: 60px 0;
-}
-
-.btn {
-    width: 6em;
-    background-color: #31AED5;
-    border-radius: 50px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 32px; 
-    color: #fcfcfc;
-    box-shadow: 2px 5px 3px rgba(0, 0, 0, 0.15);
-
-}
-
-.btn:hover {
-    color: #fcfcfc;
-}
-
-/*------------------------------------------------- Footer -------------------------------------------------*/
+/*-- Footer --*/
 
 footer {
     width: 100%;
     min-height: 500px;
     background-color: #000;
     padding: 100px 0;
-    position: relative;
+    position: absolute;
     
 }
 
@@ -179,7 +132,11 @@ footer {
     margin-bottom: 30px;
 }
 
-/*---------- Logo ----------*/
+.footer-column-divider {
+    display: none;
+}
+
+/* Logo */
 
 .footer-logo {
     width: 100%;
@@ -191,8 +148,8 @@ footer {
     height: 70px;
 }
 
-/*---------- /Logo ----------*/
-/*---------- Text-Links ----------*/
+/* /Logo */
+/* Text-Links */
 
 .footer-text-links {
     margin-bottom: 100px;
@@ -220,8 +177,8 @@ footer {
 }
 
 
-/*---------- /Text-Links ----------*/
-/*---------- Social Media Icons ----------*/
+/* /Text-Links */
+/* Social Media Icons */
 
 .social-media {
     min-height: 100px;
@@ -241,11 +198,130 @@ footer .list-inline-item a {
     color: #fcfcfc;
 }
 
-/*---------- /Social Media Icons ----------*/
+/* /Social Media Icons */
+
+/*-- /Footer --*/
+
+/*------------------------------------------------- Index.html -------------------------------------------------*/
+
+/*-- Header Landing Page --*/
+
+.nav-lp-bg-color-index {
+    background-color: rgba(217, 217, 217, .5);
+    backdrop-filter: blur(5px);
+}
+
+.navbar-brand-dark {
+    display: none;
+}
+
+#index .navbar-light .navbar-nav .nav-link {
+    color: #fcfcfc;
+    background: none;
+}
+
+#index .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fcfcfc;
+}
+
+/*-- /Header Page --*/
+
+/*-- Landing Page --*/
+
+.lp-bg-image {
+    background: url("../images/landing-page-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 900px;
+    z-index: -1;
+    
+}
+
+.ethos-bg {
+    background-color: #fcfcfc;
+    background-position: center;
+    background-size: cover;
+    min-height: 350px;
+    border: 1px solid #a6a6a6;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2), -2px -2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ethos-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 56px;
+    text-align: center;
+    color: #9b9393;
+    margin: 60px 0;
+}
+
+.sign-up-btn {
+    width: 6em;
+    background-color: #31AED5;
+    border-radius: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 32px; 
+    color: #fcfcfc;
+    box-shadow: 2px 5px 3px rgba(0, 0, 0, 0.15);
+
+}
+
+.sign-up-btn:hover {
+    color: #fcfcfc;
+}
+
+/*-- /Landing Page --*/
+/*-- Footer--*/
+
+.footer-column-divider {
+    display: none;
+}
+
+/*-- /Footer--*/
+
+/*------------------------------------------------- Discover.html -------------------------------------------------*/
+
+.nav-bg {
+    height: 100px;
+    width: 100%;
+}
+
+.banner-bg {
+    height: 400px;
+    width: 100%;
+}
+
+.section-hr {
+    border: 1px solid #D7D5D5;
+    margin: 0;
+}
+
+/*------------------------------------------------- Join.html -------------------------------------------------*/
+
+.join-main-bg {
+    background: url("../images/join-bg.jpg");
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1300px;
+    z-index: -1;
+}
+
+.signup-form {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 350px;
+}
+
 /*------------------------------------------------- Different Screen Resolutions -------------------------------------------------*/
 
 @media screen and (max-width: 992px) {
 
+/*------------------------------------------------- General - All pages -------------------------------------------------*/
+    
     .navbar-toggler {
         right: 10%;
     }
@@ -253,32 +329,12 @@ footer .list-inline-item a {
     .navbar-brand {
         left: 10%;
     }
-
 }
 
 @media screen and (max-width: 767px) {
 
-    .lp-bg {
-        min-height: 600px;
-    }
-
-
-    .ethos-bg {
-    min-height: 250px;
-    }   
-
-    .ethos-text {
-        font-size: 35px;
-        margin: 40px 0;
-    }
-
-    .btn {
-    width: 6em;
-    border-radius: 50px;
-    font-weight: 400;
-    font-size: 28px; 
-    }
-
+/*------------------------------------------------- General - All pages -------------------------------------------------*/
+    
     .column {
         margin-top: 10px;
     }
@@ -289,11 +345,6 @@ footer .list-inline-item a {
 
     .navbar-brand-dark {
     display: block;
-    }
-
-    .nav-lp-bg-color {
-        background-color: #fcfcfc;
-        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
     }
 
     .navbar-nav {
@@ -327,11 +378,43 @@ footer .list-inline-item a {
         text-decoration: underline;
     }
 
+/*------------------------------------------------- /General - All pages -------------------------------------------------*/
+
+/*------------------------------------------------- Index.html -------------------------------------------------*/
+
+    .lp-bg {
+        min-height: 600px;
+    }
+
+
+    .ethos-bg {
+        min-height: 250px;
+    }   
+
+    .ethos-text {
+        font-size: 35px;
+        margin: 40px 0;
+    }
+
+    .sign-up-btn {
+        width: 6em;
+        border-radius: 50px;
+        font-weight: 400;
+        font-size: 28px; 
+    }
+
+    .nav-lp-bg-color-index {
+        background-color: #fcfcfc;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    }
+
 }
 
 @media screen and (max-width: 575px) {
 
-    hr {
+/*------------------------------------------------- Index.html -------------------------------------------------*/
+
+    .footer-column-divider {
         display: block;
         border: 1px solid #292929;
         width: 60%;
