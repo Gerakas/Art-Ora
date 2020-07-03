@@ -1,4 +1,4 @@
-![alt text]((https://gerakas.github.io/Art-Ora/blob/master/assets/images/logo.png "Art/-Ora logo")
+![alt text](https://github.com/Gerakas/Art-Ora/blob/master/assets/images/logo.png "Art/-Ora logo")
 
 # ART/-ORA MEDIA WEBSITE
 
