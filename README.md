@@ -1,4 +1,4 @@
-![alt text](https://github.com/Gerakas/Art-Ora/blob/master/assets/images/logo.png "Art/-Ora logo")
+![art/-ora logo](https://github.com/Gerakas/Art-Ora/blob/master/assets/images/logo-dark.png "Art/-Ora logo")
 
 # ART/-ORA MEDIA WEBSITE
 
@@ -21,4 +21,4 @@ The site has been deployed to github and is accessible on [github pages](https:/
 
 A detailed concepting process was undertaken to oversee the structure of the site and ensure proper organization of content.
 
-The final version of the wireframe can be found [here](https://gerakas.github.io/Art-Ora/blob/master/wireframes/Page-concepts.pdf).
+The final version of the wireframe can be found [here](https://gerakas.github.io/Art-Ora/wireframes/Page-concepts.pdf).
