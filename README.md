@@ -1,4 +1,4 @@
-![art/-ora logo](https://github.com/Gerakas/Art-Ora/blob/master/wireframes/Union.png "Art/-Ora logo")
+![art/-ora logo](https://raw.githubusercontent.com/Gerakas/Art-Ora/master/wireframes/Union.png "Art/-Ora logo")
 
 # ART/-ORA MEDIA WEBSITE
 
