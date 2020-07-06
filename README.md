@@ -1,10 +1,10 @@
-![art/-ora logo](https://github.com/Gerakas/Art-Ora/blob/master/assets/images/logo-dark.png "Art/-Ora logo")
+![art/-ora logo](https://github.com/Gerakas/Art-Ora/blob/master/wireframes/Union.png "Art/-Ora logo")
 
 # ART/-ORA MEDIA WEBSITE
 
 ## DESCRIPTION
 
-This is the hypothetical consumer-facing media webiste. Its purpose is to create a sense of community that allows artists to connect with one another locally. They will have the option to either collaboarte or showcase their individual works of art. 
+This is the hypothetical consumer-facing media website. Its purpose is to create a sense of community that allows artists to connect locally. They will have the option to either collaborate or showcase their works of art. 
 The website is made up of 5 pages:
 
 -   Landing page: Introduces the main brand and information to the user.
@@ -15,10 +15,50 @@ The website is made up of 5 pages:
 
 ## DEPLOYMENT AND LIVE DEMO
 
-The site has been deployed to github and is accessible on [github pages](https://gerakas.github.io/Art-Ora/).
+The site has been deployed to GitHub and is accessible on [github pages](https://gerakas.github.io/Art-Ora/).
 
 ## CONCEPT
 
-A detailed concepting process was undertaken to oversee the structure of the site and ensure proper organization of content.
+A detailed concept design process was undertaken to oversee the structure/ layout of the site and ensure proper organization of content on both desktop and mobile view.
 
-The final version of the wireframe can be found [here](https://gerakas.github.io/Art-Ora/wireframes/Page-concepts.pdf).
+The final version of each pages concept can be found [here](https://gerakas.github.io/Art-Ora/wireframes/Page-concepts.pdf).
+
+## UX
+
+### Brand and Visual Identity
+
+For this project, a  simple design process was undertaken to come up with a minimalistic yet timely logo that will allow for a memorable and easily recognizable brand. This logo will ensure an overall consistent theme and feel of the website through its basic and modern design. 
+
+The visual identity of the website is represented by 2 main fonts: Montserrat for titles and headers, and Roboto for content. The logo relies on a simple square which in turn engulfs the title text that has an applied font of "Chonburi". The background can be found as either white or black with a large percentage of it making use of negative space for clear recognizability.
+
+### User Experience
+
+The website is responsive across most screen resolutions, adapting its layout and content based on screen-size for ease of use while maintaining a similar structure for brand recognizability.
+
+Minimal colours are used throughout the header and footer, providing anchor points for the user to differentiate between the core structure of the page and to the pages' content. The body itself creates a contrast to the header and footer by conveying a colourful and bright aesthetic which in return emphasizes a more creative and vibrant community.
+
+## FEATURES
+
+The site uses numerous features, many of which were pulled from the bootstrap library.
+
+-   Navbar, Nav links & Toggler allow for a simpler and more straight forward navigation system. For both desktop and mobile/tablet view.
+-   Search bar (although not functional at this stage) allows users to navigate and lookup existing content.
+-   Forms to receive and store data directly inputted by a user.
+-   Cards to provide a clear separation between content and a flexible layout that adapts to different screen resolutions.
+-   Containers and Bootstraps grid system for fluid-like layouts that respond accordingly to screen size.
+
+## TESTING 
+
+The site has been tested using various platforms to ensure proper display and responsivness.
+
+[W3C Markup Validation Service](https://validator.w3.org/) validated all the html files.
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) validated the style.css file.
+[Pingdom](https://tools.pingdom.com/) tested the website's speed. Which 
+
+### Issues 
+
+-   W3C CSS Validator's results came back with 3 errors regarding the "blur(5px)" value from the "backdrop-filter" property. All 3 errors read as "Property backdrop-filter doesn't exist : blur(5px)", which are incorrect as the value does indeed affect the element it's targeting and therefore exists.
+
+### Removed Features
+
+- Initially, the aim was to have something of a hover effect happen over the content cards in the discovery.html page, where when a user decided to hover over a card, the title and description of said card would appear alongside a background blur that would make the background image darker. This hover effect would then disappear, when the user hovers off of it, leaving only the background image of each card visible. This feature was dropped as it could not be done without the necessary skills and knowledge that can only be acquired outside of the scope of this project.
