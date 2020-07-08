@@ -29,7 +29,7 @@ The final version of each pages concept can be found [here](https://gerakas.gith
 
 For this project, a  simple design process was undertaken to come up with a minimalistic yet timely logo that will allow for a memorable and easily recognizable brand. This logo will ensure an overall consistent theme and feel of the website through its basic and modern design. 
 
-The design process started off with applying a number of different font styles to the the brand's name in order to create variety of options to pick from.
+The design process started with applying a variety of different font styles to the brand's name in order to create a mixture of options to pick from.
 
 ![logo fonts](https://raw.githubusercontent.com/Gerakas/Art-Ora/master/assets/readme%20file/logo_fontsPNG.PNG "Logo Fonts")
 
@@ -104,22 +104,23 @@ The site has been tested using various platforms to ensure proper display and re
 
 ### Tools and  Platforms Used
 
-- Figma: Used to create web-page concepts and the brand logo.
-- Gitpod: IDE used for creating and editing code.
-- Unsplash: Used for all the images on the website.
-- Font Awesome: Used for all icons throughout the site.
-- Google Fonts: Roboto and Montserrat fonts imported from google fonts.
-- Hover.css: Used for a hover effect on the landing page "Sign-Up" button.
+- [Figma](https://www.figma.com): Used to create web-page concepts and the brand logo.
+- [Gitpod](https://www.gitpod.io/): IDE used for creating and editing code.
+- [Unsplash](https://unsplash.com/): Used for all the images on the website.
+- [Font Awesome](https://fontawesome.com/): Used for all icons throughout the site.
+- [Google Fonts](https://fonts.google.com/): Roboto and Montserrat fonts imported from google fonts.
+- [Hover.css](https://ianlunn.github.io/Hover/): Used for a hover effect on the landing page "Sign-Up" button.
 - Responsive Viewer: Used to test site at different screen resolutions.
-- TinyPNG: Used to compress images.
-- Favicon Generator: Used to generate a favicon icon for the website.
+- [TinyPNG](https://tinypng.com/): Used to compress images.
+- [Favicon Generator](https://www.favicon-generator.org/): Used to generate a favicon icon for the website.
 - Adobe Photoshop: Used for editing the background image of the landing page.
-- Pingdom: Used to test the website's speed.
-- PDFcandy: Used to convert PNG's exported from Figma into a PDF format.
-- W3C Validator: used to validate HTML code.
-- W3C CSS Validator: used to validate CSS code.
+- [Pingdom](https://tools.pingdom.com/): Used to test the website's speed.
+- [PDFcandy](https://pdfcandy.com/png-to-pdf.html): Used to convert PNG's exported from Figma into a PDF format.
+- [W3C Validator](https://validator.w3.org/): used to validate HTML code.
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): used to validate CSS code.
 
 ## ACKNOWLEDGEMTS 
 
-
+-   Many thanks to [Felipe Alarcon](https://github.com/felipe-alarcon) for his insightful feedback and advice.
+-   Many thanks to [Code Institute](https://codeinstitute.net/) and the slack community for their unmatched support.
 
