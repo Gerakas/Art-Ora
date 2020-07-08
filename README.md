@@ -29,13 +29,29 @@ The final version of each pages concept can be found [here](https://gerakas.gith
 
 For this project, a  simple design process was undertaken to come up with a minimalistic yet timely logo that will allow for a memorable and easily recognizable brand. This logo will ensure an overall consistent theme and feel of the website through its basic and modern design. 
 
+The design process started off with applying a number of different font styles to the the brand's name in order to create variety of options to pick from.
+
+![logo fonts](https://raw.githubusercontent.com/Gerakas/Art-Ora/master/assets/readme%20file/logo_fontsPNG.PNG "Logo Fonts")
+
+Once the top 5 font styles were picked, basic minimalistic shapes were added onto them to complement the style and to create a more finalized feel.
+
+![logo shapes](https://raw.githubusercontent.com/Gerakas/Art-Ora/master/assets/readme%20file/logo_shapes.PNG "Logo Shapes")
+
 The visual identity of the website is represented by 2 main fonts: Montserrat for titles and headers, and Roboto for content. The logo relies on a simple square which in turn engulfs the title text that has an applied font of "Chonburi". The background can be found as either white or black with a large percentage of it making use of negative space for clear recognizability.
 
 ### User Experience
 
 The website is responsive across most screen resolutions, adapting its layout and content based on screen-size for ease of use while maintaining a similar structure for brand recognizability.
 
+![landing page screen sizes](https://raw.githubusercontent.com/Gerakas/Art-Ora/master/assets/readme%20file/landing_screens.png "Landing Page Screen Sizes")
+
+![discover page screen sizes](https://raw.githubusercontent.com/Gerakas/Art-Ora/master/assets/readme%20file/discover_screens.png "Discover Page Screen Sizes")
+
 Minimal colours are used throughout the header and footer, providing anchor points for the user to differentiate between the core structure of the page and to the pages' content. The body itself creates a contrast to the header and footer by conveying a colourful and bright aesthetic which in return emphasizes a more creative and vibrant community.
+
+![website header](https://raw.githubusercontent.com/Gerakas/Art-Ora/master/assets/readme%20file/header.PNG "Website Header")
+
+![website footer](https://raw.githubusercontent.com/Gerakas/Art-Ora/master/assets/readme%20file/footer.PNG "Website Footer")
 
 ## FEATURES
 
@@ -58,7 +74,12 @@ The site has been tested using various platforms to ensure proper display and re
 ### Issues 
 
 -   W3C CSS Validator's results came back with 3 errors regarding the "blur(5px)" value from the "backdrop-filter" property. All 3 errors read as "Property backdrop-filter doesn't exist : blur(5px)", which is incorrect as the value does indeed affect the element it's targeting and therefore exists.
+
+![css validation results](https://raw.githubusercontent.com/Gerakas/Art-Ora/master/assets/readme%20file/css_validation_results.PNG "CSS Validation Results")
+
 -   Pingdom results cambe back as "Performance Grade: B 81"
+
+![pingdom results](https://raw.githubusercontent.com/Gerakas/Art-Ora/master/assets/readme%20file/pingdom_resultsPNG.PNG "Pingdom Results")
 
 ### Removed Features
 
