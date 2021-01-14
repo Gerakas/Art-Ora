@@ -4,7 +4,7 @@
 
 ## DESCRIPTION
 
-This is the hypothetical consumer-facing media website. Its purpose is to create a sense of community that allows artists to connect locally. They will have the option to either collaborate or showcase their works of art. 
+An imaginary consumer-facing media website. Its purpose is to create a sense of community that allows artists to connect locally. They will have the option to either collaborate or showcase their works of art. 
 The website is made up of 5 pages:
 
 -   Landing page: Introduces the main brand and information to the user.
